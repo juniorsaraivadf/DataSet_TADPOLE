@@ -1,4 +1,7 @@
 # DataSet_TADPOLE
+
+Generation of a dataset (.cmd file) containing the CN, MCI, and AD classes, based on TADPOLE data derived from the ADNI study on Alzheimer's disease.
+
 Generation of a .cmd file containing the CN, MCI, and AD classes, based on TADPOLE data derived from the ADNI study on Alzheimer's disease.
 
 The Jupyter notebook calculates the final dataset from the TADPOLE_D1_D2.csv file and generates the ADNI_3C.csv file by following these steps:
@@ -13,3 +16,5 @@ The Jupyter notebook calculates the final dataset from the TADPOLE_D1_D2.csv fil
 9 - Remove the patient ID and the exam date
 10 - Save the resulting file as a CSV
 11 - Calculates the number of instances per class
+
+
